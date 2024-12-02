@@ -32,4 +32,5 @@ devcontainer build --workspace-folder <path-to-configuration>
 > [!IMPORTANT]
 > These configurations are for Nvidia GPUs and x86_64 based systems.
 > Besides, GPU passthrough isn't there for macOS/Asahi Linux running Apple Silicon yet.
- 
+
+Once up and running, you can connect to the devcontainer through VS Code or Jetbrains IDEs (these are the ones I use actually!).
