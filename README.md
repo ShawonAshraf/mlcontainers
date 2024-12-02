@@ -18,12 +18,18 @@ Then run the configuration you want by
 
 ```bash
 devcontainer up --workspace-folder <path-to-configuration>
+
+# example
+devcontainer up --workspace-folder ./pytorch-nlp-conda
 ```
 
 If you only wish to build a devcontainer to run it later,
 
 ```bash
 devcontainer build --workspace-folder <path-to-configuration>
+
+# example
+devcontainer build --workspace-folder ./pytorch-nlp-conda
 ```
 
 > [!IMPORTANT]
