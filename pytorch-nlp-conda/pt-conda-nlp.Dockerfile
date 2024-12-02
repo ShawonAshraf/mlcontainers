@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3:latest
+FROM continuumio/miniconda3:latest
 
 COPY env.yml tmp/env.yml
 WORKDIR /workspaces
