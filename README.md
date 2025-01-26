@@ -12,6 +12,8 @@ Install the `devcontainer-cli` via `npm`
 
 ```bash
 npm install -g @devcontainers/cli
+# you may have to use sudo in some linux distros
+# especially if npm installed as a system package
 ```
 
 Then run the configuration you want by
