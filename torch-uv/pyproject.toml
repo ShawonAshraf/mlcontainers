@@ -1,0 +1,29 @@
+[project]
+name = "torch-uv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.4.0",
+    "datasets>=3.3.2",
+    "deepspeed>=0.16.4",
+    "einops>=0.8.1",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.3.5",
+    "lightning>=2.5.0.post0",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "peft>=0.14.0",
+    "tensorboard>=2.19.0",
+    "torch>=2.6.0",
+    "torchaudio>=2.6.0",
+    "torchvision>=0.21.0",
+    "transformers>=4.49.0",
+    "wandb>=0.19.8",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.10",
+]
