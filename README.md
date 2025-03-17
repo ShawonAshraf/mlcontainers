@@ -22,7 +22,7 @@ Then run the configuration you want by
 devcontainer up --workspace-folder <path-to-configuration>
 
 # example
-devcontainer up --workspace-folder ./pytorch-nlp-conda
+devcontainer up --workspace-folder ./torch-uv
 ```
 
 If you only wish to build a devcontainer to run it later,
@@ -31,7 +31,7 @@ If you only wish to build a devcontainer to run it later,
 devcontainer build --workspace-folder <path-to-configuration>
 
 # example
-devcontainer build --workspace-folder ./pytorch-nlp-conda
+devcontainer build --workspace-folder ./jax-uv
 ```
 
 > [!IMPORTANT]
